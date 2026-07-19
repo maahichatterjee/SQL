@@ -1,4 +1,4 @@
-TABLE users (TABLE users (
+CREATE TABLE users(CREATE TABLE users(
   name TEXT  name TEXT
 ););
 
