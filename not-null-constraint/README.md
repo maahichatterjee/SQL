@@ -12,7 +12,7 @@ In the example above, the name column is set to NOT NULL. This means that every 
 
 Columns can have both a default value and the NOT NULL constraint.
 
-Above we have added both a default value and the NOT NULL constraint to the columns. The order we place the default value and the NOT NULL constraint for a column does not matter. A constraint in SQLis a rule that is enforced on a column. NOT NULL is only one of many constraints we will learn about. ChallengeCreate a table called products with the following columns: name of type TEXT and must not be NULL, with a default value of 'Unknown'
+Above we have added both a default value and the NOT NULL constraint to the columns. The order we place the default value and the NOT NULL constraint for a column does not matter. A constraint in SQL is a rule that is enforced on a column. NOT NULL is only one of many constraints we will learn about. ChallengeCreate a table called products with the following columns: name of type TEXT and must not be NULL, with a default value of 'Unknown'
 
 price of type INTEGER and must not be NULL
 
