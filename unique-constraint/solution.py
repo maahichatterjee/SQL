@@ -1,3 +1,6 @@
+    column_default,    column_default,
+    CASE     CASE 
+        WHEN column_name IN (        WHEN column_name IN (
             SELECT column_name             SELECT column_name 
             FROM information_schema.table_constraints tc            FROM information_schema.table_constraints tc
             JOIN information_schema.constraint_column_usage ccu             JOIN information_schema.constraint_column_usage ccu 
@@ -10,4 +13,6 @@
 FROM FROM 
     information_schema.columns    information_schema.columns
 WHERE WHERE 
-    table_name = 'students';    table_name = 'students';
+    is_nullable,    is_nullable,
+    column_name,     column_name, 
+SELECT SELECT 
