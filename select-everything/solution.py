@@ -13,4 +13,4 @@ tree in C++'),
 breadth-first search in C++');
 -- Do not modify above this line. --
 
-SELECT * FROM coding_problems 
+SELECT * FROM coding_problems; 
