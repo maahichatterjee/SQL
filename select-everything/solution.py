@@ -1,3 +1,4 @@
+    description TEXT
 );
 
 SELECT * FROM coding_problems;
