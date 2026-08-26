@@ -1,6 +1,10 @@
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
-CREATE TABLE users (
-    id UUID PRIMARY KEY DEFAULT 
-uuid_generate_v4(),
-    name TEXT
+
+-- TODO: Remove this block --
+
+-- TODO: Remove this block --
+
+
+
+-- Do not modify below this line --
+SELECT * FROM users;
