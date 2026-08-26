@@ -1,3 +1,5 @@
+);
+
 INSERT INTO cities (id, name, country) VALUES
 (1, 'Tokyo', 'Japan'),
 (2, 'London', 'England'),
@@ -11,8 +13,7 @@ INSERT INTO cities (id, name, country) VALUES
 (10, 'Mumbai', 'India'),
 (11, 'Beijing', 'China'),
 (12, 'Los Angeles', 'USA');
-
-);
--- Do not modify above this line. --
-
-SELECT DISTICT country FROM cities ;
+    country TEXT
+    name TEXT,
+    id INT PRIMARY KEY,
+CREATE TABLE cities (
