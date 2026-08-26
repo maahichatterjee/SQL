@@ -1,7 +1,9 @@
+CREATE TABLE coding_problems (
+    id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name TEXT,
+    difficulty TEXT,
     description TEXT
 );
-
-SELECT * FROM coding_problems;
 
 INSERT INTO coding_problems (name, difficulty, description) VALUES
     ('Dynamic Array', 'Easy', 'Implement a dynamic array in C++'),
@@ -11,8 +13,4 @@ tree in C++'),
 breadth-first search in C++');
 -- Do not modify above this line. --
 
-
-SELECT * FROM coding_problems;
-
-
-
+SELECT * FROM coding_problems 
