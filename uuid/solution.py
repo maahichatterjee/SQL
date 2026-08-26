@@ -1,8 +1,6 @@
-INSERT INTO users (name) 
--- TODO: Remove this block --
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
-);
-    name TEXT
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
 CREATE TABLE users (
-  VALUES ('Alex'),
+    id UUID PRIMARY KEY DEFAULT 
+uuid_generate_v4(),
+    name TEXT
