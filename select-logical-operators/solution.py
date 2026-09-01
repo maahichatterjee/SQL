@@ -13,6 +13,6 @@
 -- Do not modify above this line. --
 
 SELECT name FROM cities WHERE (population<1000000 OR 
-population>10000000) AND name!='C%' ;
+population>10000000) AND name  NOT LIKE 'C%' ;
 
 
