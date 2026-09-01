@@ -14,5 +14,5 @@ INSERT INTO cities (id, name, country) VALUES
 (13, 'New Orleans', 'USA');
 -- Do not modify above this line. --
 
-SELCT name FROM cities WHERE name LIKE '%ai%';
+SELECT name FROM cities WHERE name LIKE '%ai%';
 
